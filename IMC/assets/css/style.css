@@ -1,0 +1,81 @@
+@import url
+(
+  "https://fonts.googleapis.com/css2? family = Zilla + Slab: wght @ 300; 400; 700 & display = swap"
+);
+
+:root {
+  --primary-color: #fff;
+  --primary-color-dark: rgb(252, 101, 159);
+  --back-color: rgb(255, 179, 233);
+}
+
+* {
+  outline: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Zilla Slab", sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  background-color: var(--back-color);
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: var(--primary-color);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input,
+form label,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 40px;
+  padding: 0 10px;
+}
+
+form input:focus {
+  outline: 1px solid var(--back-color);
+}
+
+form button {
+  border: none;
+  background: var(--back-color);
+  color: rgb(3, 3, 3);
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+  border-radius: 100px;
+}
+
+form button:hover {
+  background: var(--primary-color-dark);
+}
+form button:active {
+  background: rgb(223, 55, 195);
+}
+
+.paragrafo-resultado {
+  background: rgb(71, 248, 151);
+  padding: 10px 20px;
+}
+
+.bad {
+  background: rgb(248, 45, 45);
+}
